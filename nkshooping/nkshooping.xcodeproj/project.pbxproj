@@ -7,25 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F2306F91D3EB49C0049D856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2306F81D3EB49C0049D856 /* main.m */; };
-		5F2306FC1D3EB49C0049D856 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2306FB1D3EB49C0049D856 /* AppDelegate.m */; };
-		5F2306FF1D3EB49C0049D856 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2306FE1D3EB49C0049D856 /* ViewController.m */; };
-		5F2307021D3EB49C0049D856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2307001D3EB49C0049D856 /* Main.storyboard */; };
 		5F2307041D3EB49C0049D856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2307031D3EB49C0049D856 /* Assets.xcassets */; };
 		5F2307071D3EB49C0049D856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2307051D3EB49C0049D856 /* LaunchScreen.storyboard */; };
+		5F23077C1D3EB82F0049D856 /* nkCateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307351D3EB82F0049D856 /* nkCateViewController.m */; };
+		5F23077D1D3EB82F0049D856 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307391D3EB82F0049D856 /* AMapFoundationKit.framework */; };
+		5F23077E1D3EB82F0049D856 /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23073A1D3EB82F0049D856 /* AMapLocationKit.framework */; };
+		5F23077F1D3EB82F0049D856 /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23073B1D3EB82F0049D856 /* AMapNaviKit.framework */; };
+		5F2307801D3EB82F0049D856 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23073C1D3EB82F0049D856 /* AMapSearchKit.framework */; };
+		5F2307811D3EB82F0049D856 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23073D1D3EB82F0049D856 /* MAMapKit.framework */; };
+		5F2307821D3EB82F0049D856 /* nkFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307411D3EB82F0049D856 /* nkFirstViewController.m */; };
+		5F2307831D3EB82F0049D856 /* nkFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2307421D3EB82F0049D856 /* nkFirstViewController.xib */; };
+		5F2307841D3EB82F0049D856 /* nkCateMin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307461D3EB82F0049D856 /* nkCateMin.m */; };
+		5F2307851D3EB82F0049D856 /* nkFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307481D3EB82F0049D856 /* nkFirstView.m */; };
+		5F2307861D3EB82F0049D856 /* nkFirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2307491D3EB82F0049D856 /* nkFirstView.xib */; };
+		5F2307871D3EB82F0049D856 /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F23074C1D3EB82F0049D856 /* UIImage+Fit.m */; };
+		5F2307881D3EB82F0049D856 /* UIScrollView+nkScrollViewTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F23074E1D3EB82F0049D856 /* UIScrollView+nkScrollViewTouch.m */; };
+		5F2307891D3EB82F0049D856 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307501D3EB82F0049D856 /* UIView+AdjustFrame.m */; };
+		5F23078A1D3EB82F0049D856 /* nkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307541D3EB82F0049D856 /* nkMapViewController.m */; };
+		5F23078B1D3EB82F0049D856 /* nkMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2307551D3EB82F0049D856 /* nkMapViewController.xib */; };
+		5F23078C1D3EB82F0049D856 /* nkMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F23075B1D3EB82F0049D856 /* nkMeViewController.m */; };
+		5F23078D1D3EB82F0049D856 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307601D3EB82F0049D856 /* AppDelegate.m */; };
+		5F23078E1D3EB82F0049D856 /* nkWGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307631D3EB82F0049D856 /* nkWGS84TOGCJ02.m */; };
+		5F23078F1D3EB82F0049D856 /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307651D3EB82F0049D856 /* UIImage+Fit.m */; };
+		5F2307901D3EB82F0049D856 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307671D3EB82F0049D856 /* UIView+AdjustFrame.m */; };
+		5F2307911D3EB82F0049D856 /* nkHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F23076A1D3EB82F0049D856 /* nkHomeController.m */; };
+		5F2307921D3EB82F0049D856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F23076C1D3EB82F0049D856 /* main.m */; };
+		5F2307931D3EB82F0049D856 /* nkHomeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307711D3EB82F0049D856 /* nkHomeTabBar.m */; };
+		5F2307941D3EB82F0049D856 /* nkShopTrolleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2307791D3EB82F0049D856 /* nkShopTrolleyViewController.m */; };
+		5F2307961D3EB8E30049D856 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307951D3EB8E30049D856 /* Security.framework */; };
+		5F2307981D3EB8F00049D856 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307971D3EB8F00049D856 /* libc++.tbd */; };
+		5F23079A1D3EB8FA0049D856 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307991D3EB8FA0049D856 /* libstdc++.6.0.9.tbd */; };
+		5F23079C1D3EB9070049D856 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23079B1D3EB9070049D856 /* QuartzCore.framework */; };
+		5F23079E1D3EB9110049D856 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23079D1D3EB9110049D856 /* CoreGraphics.framework */; };
+		5F2307A01D3EB9180049D856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23079F1D3EB9180049D856 /* Foundation.framework */; };
+		5F2307A21D3EB91E0049D856 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307A11D3EB91E0049D856 /* UIKit.framework */; };
+		5F2307A41D3EB9250049D856 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307A31D3EB9250049D856 /* libz.tbd */; };
+		5F2307A61D3EB92E0049D856 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307A51D3EB92E0049D856 /* SystemConfiguration.framework */; };
+		5F2307A81D3EB9360049D856 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307A71D3EB9360049D856 /* CoreTelephony.framework */; };
+		5F2307AA1D3EB93C0049D856 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2307A91D3EB93C0049D856 /* CoreLocation.framework */; };
+		5F2307B01D3EE9870049D856 /* AMapNavi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F2307AF1D3EE9870049D856 /* AMapNavi.bundle */; };
+		5F2307B21D3EE9920049D856 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F2307B11D3EE9920049D856 /* AMap.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F2306F41D3EB49C0049D856 /* nkshooping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nkshooping.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F2306F81D3EB49C0049D856 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F2306FA1D3EB49C0049D856 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5F2306FB1D3EB49C0049D856 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5F2306FD1D3EB49C0049D856 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5F2306FE1D3EB49C0049D856 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5F2307011D3EB49C0049D856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F2307031D3EB49C0049D856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F2307061D3EB49C0049D856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F2307081D3EB49C0049D856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2307341D3EB82F0049D856 /* nkCateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkCateViewController.h; sourceTree = "<group>"; };
+		5F2307351D3EB82F0049D856 /* nkCateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkCateViewController.m; sourceTree = "<group>"; };
+		5F2307391D3EB82F0049D856 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		5F23073A1D3EB82F0049D856 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		5F23073B1D3EB82F0049D856 /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
+		5F23073C1D3EB82F0049D856 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		5F23073D1D3EB82F0049D856 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		5F2307401D3EB82F0049D856 /* nkFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkFirstViewController.h; sourceTree = "<group>"; };
+		5F2307411D3EB82F0049D856 /* nkFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkFirstViewController.m; sourceTree = "<group>"; };
+		5F2307421D3EB82F0049D856 /* nkFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nkFirstViewController.xib; sourceTree = "<group>"; };
+		5F2307451D3EB82F0049D856 /* nkCateMin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkCateMin.h; sourceTree = "<group>"; };
+		5F2307461D3EB82F0049D856 /* nkCateMin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkCateMin.m; sourceTree = "<group>"; };
+		5F2307471D3EB82F0049D856 /* nkFirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkFirstView.h; sourceTree = "<group>"; };
+		5F2307481D3EB82F0049D856 /* nkFirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkFirstView.m; sourceTree = "<group>"; };
+		5F2307491D3EB82F0049D856 /* nkFirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nkFirstView.xib; sourceTree = "<group>"; };
+		5F23074B1D3EB82F0049D856 /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		5F23074C1D3EB82F0049D856 /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		5F23074D1D3EB82F0049D856 /* UIScrollView+nkScrollViewTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+nkScrollViewTouch.h"; sourceTree = "<group>"; };
+		5F23074E1D3EB82F0049D856 /* UIScrollView+nkScrollViewTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+nkScrollViewTouch.m"; sourceTree = "<group>"; };
+		5F23074F1D3EB82F0049D856 /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		5F2307501D3EB82F0049D856 /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		5F2307531D3EB82F0049D856 /* nkMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkMapViewController.h; sourceTree = "<group>"; };
+		5F2307541D3EB82F0049D856 /* nkMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkMapViewController.m; sourceTree = "<group>"; };
+		5F2307551D3EB82F0049D856 /* nkMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nkMapViewController.xib; sourceTree = "<group>"; };
+		5F23075A1D3EB82F0049D856 /* nkMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkMeViewController.h; sourceTree = "<group>"; };
+		5F23075B1D3EB82F0049D856 /* nkMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkMeViewController.m; sourceTree = "<group>"; };
+		5F23075F1D3EB82F0049D856 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F2307601D3EB82F0049D856 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F2307621D3EB82F0049D856 /* nkWGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkWGS84TOGCJ02.h; sourceTree = "<group>"; };
+		5F2307631D3EB82F0049D856 /* nkWGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkWGS84TOGCJ02.m; sourceTree = "<group>"; };
+		5F2307641D3EB82F0049D856 /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		5F2307651D3EB82F0049D856 /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		5F2307661D3EB82F0049D856 /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		5F2307671D3EB82F0049D856 /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		5F2307691D3EB82F0049D856 /* nkHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkHomeController.h; sourceTree = "<group>"; };
+		5F23076A1D3EB82F0049D856 /* nkHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkHomeController.m; sourceTree = "<group>"; };
+		5F23076C1D3EB82F0049D856 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F23076D1D3EB82F0049D856 /* nkHeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkHeaderFile.h; sourceTree = "<group>"; };
+		5F23076E1D3EB82F0049D856 /* nkPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkPrefixHeader.pch; sourceTree = "<group>"; };
+		5F2307701D3EB82F0049D856 /* nkHomeTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkHomeTabBar.h; sourceTree = "<group>"; };
+		5F2307711D3EB82F0049D856 /* nkHomeTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkHomeTabBar.m; sourceTree = "<group>"; };
+		5F2307781D3EB82F0049D856 /* nkShopTrolleyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkShopTrolleyViewController.h; sourceTree = "<group>"; };
+		5F2307791D3EB82F0049D856 /* nkShopTrolleyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nkShopTrolleyViewController.m; sourceTree = "<group>"; };
+		5F2307951D3EB8E30049D856 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5F2307971D3EB8F00049D856 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5F2307991D3EB8FA0049D856 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		5F23079B1D3EB9070049D856 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5F23079D1D3EB9110049D856 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F23079F1D3EB9180049D856 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F2307A11D3EB91E0049D856 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F2307A31D3EB9250049D856 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5F2307A51D3EB92E0049D856 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5F2307A71D3EB9360049D856 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5F2307A91D3EB93C0049D856 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5F2307AF1D3EE9870049D856 /* AMapNavi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMapNavi.bundle; path = AMapNaviKit.framework/AMapNavi.bundle; sourceTree = "<group>"; };
+		5F2307B11D3EE9920049D856 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +117,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2307AA1D3EB93C0049D856 /* CoreLocation.framework in Frameworks */,
+				5F2307A81D3EB9360049D856 /* CoreTelephony.framework in Frameworks */,
+				5F2307A61D3EB92E0049D856 /* SystemConfiguration.framework in Frameworks */,
+				5F2307A41D3EB9250049D856 /* libz.tbd in Frameworks */,
+				5F2307A21D3EB91E0049D856 /* UIKit.framework in Frameworks */,
+				5F2307A01D3EB9180049D856 /* Foundation.framework in Frameworks */,
+				5F23079E1D3EB9110049D856 /* CoreGraphics.framework in Frameworks */,
+				5F23079C1D3EB9070049D856 /* QuartzCore.framework in Frameworks */,
+				5F23079A1D3EB8FA0049D856 /* libstdc++.6.0.9.tbd in Frameworks */,
+				5F2307981D3EB8F00049D856 /* libc++.tbd in Frameworks */,
+				5F2307961D3EB8E30049D856 /* Security.framework in Frameworks */,
+				5F2307801D3EB82F0049D856 /* AMapSearchKit.framework in Frameworks */,
+				5F23077D1D3EB82F0049D856 /* AMapFoundationKit.framework in Frameworks */,
+				5F23077E1D3EB82F0049D856 /* AMapLocationKit.framework in Frameworks */,
+				5F23077F1D3EB82F0049D856 /* AMapNaviKit.framework in Frameworks */,
+				5F2307811D3EB82F0049D856 /* MAMapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,14 +158,7 @@
 		5F2306F61D3EB49C0049D856 /* nkshooping */ = {
 			isa = PBXGroup;
 			children = (
-				5F2306FA1D3EB49C0049D856 /* AppDelegate.h */,
-				5F2306FB1D3EB49C0049D856 /* AppDelegate.m */,
-				5F2306FD1D3EB49C0049D856 /* ViewController.h */,
-				5F2306FE1D3EB49C0049D856 /* ViewController.m */,
-				5F2307001D3EB49C0049D856 /* Main.storyboard */,
-				5F2307031D3EB49C0049D856 /* Assets.xcassets */,
-				5F2307051D3EB49C0049D856 /* LaunchScreen.storyboard */,
-				5F2307081D3EB49C0049D856 /* Info.plist */,
+				5F2307311D3EB82F0049D856 /* classes */,
 				5F2306F71D3EB49C0049D856 /* Supporting Files */,
 			);
 			path = nkshooping;
@@ -74,9 +167,322 @@
 		5F2306F71D3EB49C0049D856 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F2306F81D3EB49C0049D856 /* main.m */,
+				5F2307031D3EB49C0049D856 /* Assets.xcassets */,
+				5F2307051D3EB49C0049D856 /* LaunchScreen.storyboard */,
+				5F2307081D3EB49C0049D856 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F2307311D3EB82F0049D856 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307321D3EB82F0049D856 /* cate */,
+				5F2307381D3EB82F0049D856 /* farmework */,
+				5F23073E1D3EB82F0049D856 /* first */,
+				5F23074A1D3EB82F0049D856 /* lib */,
+				5F2307511D3EB82F0049D856 /* map */,
+				5F2307581D3EB82F0049D856 /* me */,
+				5F23075E1D3EB82F0049D856 /* public */,
+				5F2307721D3EB82F0049D856 /* share */,
+				5F2307761D3EB82F0049D856 /* shopTrolley */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		5F2307321D3EB82F0049D856 /* cate */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307331D3EB82F0049D856 /* controller */,
+				5F2307361D3EB82F0049D856 /* madel */,
+				5F2307371D3EB82F0049D856 /* view */,
+			);
+			path = cate;
+			sourceTree = "<group>";
+		};
+		5F2307331D3EB82F0049D856 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307341D3EB82F0049D856 /* nkCateViewController.h */,
+				5F2307351D3EB82F0049D856 /* nkCateViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F2307361D3EB82F0049D856 /* madel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = madel;
+			sourceTree = "<group>";
+		};
+		5F2307371D3EB82F0049D856 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5F2307381D3EB82F0049D856 /* farmework */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307B11D3EE9920049D856 /* AMap.bundle */,
+				5F2307AF1D3EE9870049D856 /* AMapNavi.bundle */,
+				5F2307A91D3EB93C0049D856 /* CoreLocation.framework */,
+				5F2307A71D3EB9360049D856 /* CoreTelephony.framework */,
+				5F2307A51D3EB92E0049D856 /* SystemConfiguration.framework */,
+				5F2307A31D3EB9250049D856 /* libz.tbd */,
+				5F2307A11D3EB91E0049D856 /* UIKit.framework */,
+				5F23079F1D3EB9180049D856 /* Foundation.framework */,
+				5F23079D1D3EB9110049D856 /* CoreGraphics.framework */,
+				5F23079B1D3EB9070049D856 /* QuartzCore.framework */,
+				5F2307991D3EB8FA0049D856 /* libstdc++.6.0.9.tbd */,
+				5F2307971D3EB8F00049D856 /* libc++.tbd */,
+				5F2307951D3EB8E30049D856 /* Security.framework */,
+				5F2307391D3EB82F0049D856 /* AMapFoundationKit.framework */,
+				5F23073A1D3EB82F0049D856 /* AMapLocationKit.framework */,
+				5F23073B1D3EB82F0049D856 /* AMapNaviKit.framework */,
+				5F23073C1D3EB82F0049D856 /* AMapSearchKit.framework */,
+				5F23073D1D3EB82F0049D856 /* MAMapKit.framework */,
+			);
+			path = farmework;
+			sourceTree = "<group>";
+		};
+		5F23073E1D3EB82F0049D856 /* first */ = {
+			isa = PBXGroup;
+			children = (
+				5F23073F1D3EB82F0049D856 /* controller */,
+				5F2307431D3EB82F0049D856 /* madel */,
+				5F2307441D3EB82F0049D856 /* view */,
+			);
+			path = first;
+			sourceTree = "<group>";
+		};
+		5F23073F1D3EB82F0049D856 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307401D3EB82F0049D856 /* nkFirstViewController.h */,
+				5F2307411D3EB82F0049D856 /* nkFirstViewController.m */,
+				5F2307421D3EB82F0049D856 /* nkFirstViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F2307431D3EB82F0049D856 /* madel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = madel;
+			sourceTree = "<group>";
+		};
+		5F2307441D3EB82F0049D856 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307451D3EB82F0049D856 /* nkCateMin.h */,
+				5F2307461D3EB82F0049D856 /* nkCateMin.m */,
+				5F2307471D3EB82F0049D856 /* nkFirstView.h */,
+				5F2307481D3EB82F0049D856 /* nkFirstView.m */,
+				5F2307491D3EB82F0049D856 /* nkFirstView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5F23074A1D3EB82F0049D856 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5F23074B1D3EB82F0049D856 /* UIImage+Fit.h */,
+				5F23074C1D3EB82F0049D856 /* UIImage+Fit.m */,
+				5F23074D1D3EB82F0049D856 /* UIScrollView+nkScrollViewTouch.h */,
+				5F23074E1D3EB82F0049D856 /* UIScrollView+nkScrollViewTouch.m */,
+				5F23074F1D3EB82F0049D856 /* UIView+AdjustFrame.h */,
+				5F2307501D3EB82F0049D856 /* UIView+AdjustFrame.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		5F2307511D3EB82F0049D856 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307521D3EB82F0049D856 /* controller */,
+				5F2307561D3EB82F0049D856 /* madel */,
+				5F2307571D3EB82F0049D856 /* view */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		5F2307521D3EB82F0049D856 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307531D3EB82F0049D856 /* nkMapViewController.h */,
+				5F2307541D3EB82F0049D856 /* nkMapViewController.m */,
+				5F2307551D3EB82F0049D856 /* nkMapViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F2307561D3EB82F0049D856 /* madel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = madel;
+			sourceTree = "<group>";
+		};
+		5F2307571D3EB82F0049D856 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5F2307581D3EB82F0049D856 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307591D3EB82F0049D856 /* controller */,
+				5F23075C1D3EB82F0049D856 /* madel */,
+				5F23075D1D3EB82F0049D856 /* view */,
+			);
+			path = me;
+			sourceTree = "<group>";
+		};
+		5F2307591D3EB82F0049D856 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F23075A1D3EB82F0049D856 /* nkMeViewController.h */,
+				5F23075B1D3EB82F0049D856 /* nkMeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F23075C1D3EB82F0049D856 /* madel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = madel;
+			sourceTree = "<group>";
+		};
+		5F23075D1D3EB82F0049D856 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5F23075E1D3EB82F0049D856 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				5F23075F1D3EB82F0049D856 /* AppDelegate.h */,
+				5F2307601D3EB82F0049D856 /* AppDelegate.m */,
+				5F2307611D3EB82F0049D856 /* category */,
+				5F2307681D3EB82F0049D856 /* controller */,
+				5F23076B1D3EB82F0049D856 /* madel */,
+				5F23076C1D3EB82F0049D856 /* main.m */,
+				5F23076D1D3EB82F0049D856 /* nkHeaderFile.h */,
+				5F23076E1D3EB82F0049D856 /* nkPrefixHeader.pch */,
+				5F23076F1D3EB82F0049D856 /* view */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		5F2307611D3EB82F0049D856 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307621D3EB82F0049D856 /* nkWGS84TOGCJ02.h */,
+				5F2307631D3EB82F0049D856 /* nkWGS84TOGCJ02.m */,
+				5F2307641D3EB82F0049D856 /* UIImage+Fit.h */,
+				5F2307651D3EB82F0049D856 /* UIImage+Fit.m */,
+				5F2307661D3EB82F0049D856 /* UIView+AdjustFrame.h */,
+				5F2307671D3EB82F0049D856 /* UIView+AdjustFrame.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		5F2307681D3EB82F0049D856 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307691D3EB82F0049D856 /* nkHomeController.h */,
+				5F23076A1D3EB82F0049D856 /* nkHomeController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F23076B1D3EB82F0049D856 /* madel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = madel;
+			sourceTree = "<group>";
+		};
+		5F23076F1D3EB82F0049D856 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307701D3EB82F0049D856 /* nkHomeTabBar.h */,
+				5F2307711D3EB82F0049D856 /* nkHomeTabBar.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5F2307721D3EB82F0049D856 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307731D3EB82F0049D856 /* controller */,
+				5F2307741D3EB82F0049D856 /* madel */,
+				5F2307751D3EB82F0049D856 /* view */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		5F2307731D3EB82F0049D856 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F2307741D3EB82F0049D856 /* madel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = madel;
+			sourceTree = "<group>";
+		};
+		5F2307751D3EB82F0049D856 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5F2307761D3EB82F0049D856 /* shopTrolley */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307771D3EB82F0049D856 /* controller */,
+				5F23077A1D3EB82F0049D856 /* madel */,
+				5F23077B1D3EB82F0049D856 /* view */,
+			);
+			path = shopTrolley;
+			sourceTree = "<group>";
+		};
+		5F2307771D3EB82F0049D856 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F2307781D3EB82F0049D856 /* nkShopTrolleyViewController.h */,
+				5F2307791D3EB82F0049D856 /* nkShopTrolleyViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F23077A1D3EB82F0049D856 /* madel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = madel;
+			sourceTree = "<group>";
+		};
+		5F23077B1D3EB82F0049D856 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +543,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F23078B1D3EB82F0049D856 /* nkMapViewController.xib in Resources */,
 				5F2307071D3EB49C0049D856 /* LaunchScreen.storyboard in Resources */,
+				5F2307861D3EB82F0049D856 /* nkFirstView.xib in Resources */,
 				5F2307041D3EB49C0049D856 /* Assets.xcassets in Resources */,
-				5F2307021D3EB49C0049D856 /* Main.storyboard in Resources */,
+				5F2307B21D3EE9920049D856 /* AMap.bundle in Resources */,
+				5F2307B01D3EE9870049D856 /* AMapNavi.bundle in Resources */,
+				5F2307831D3EB82F0049D856 /* nkFirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +560,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F2306FF1D3EB49C0049D856 /* ViewController.m in Sources */,
-				5F2306FC1D3EB49C0049D856 /* AppDelegate.m in Sources */,
-				5F2306F91D3EB49C0049D856 /* main.m in Sources */,
+				5F23078D1D3EB82F0049D856 /* AppDelegate.m in Sources */,
+				5F2307901D3EB82F0049D856 /* UIView+AdjustFrame.m in Sources */,
+				5F2307841D3EB82F0049D856 /* nkCateMin.m in Sources */,
+				5F2307891D3EB82F0049D856 /* UIView+AdjustFrame.m in Sources */,
+				5F2307821D3EB82F0049D856 /* nkFirstViewController.m in Sources */,
+				5F2307941D3EB82F0049D856 /* nkShopTrolleyViewController.m in Sources */,
+				5F23077C1D3EB82F0049D856 /* nkCateViewController.m in Sources */,
+				5F2307921D3EB82F0049D856 /* main.m in Sources */,
+				5F2307871D3EB82F0049D856 /* UIImage+Fit.m in Sources */,
+				5F2307931D3EB82F0049D856 /* nkHomeTabBar.m in Sources */,
+				5F23078F1D3EB82F0049D856 /* UIImage+Fit.m in Sources */,
+				5F23078E1D3EB82F0049D856 /* nkWGS84TOGCJ02.m in Sources */,
+				5F2307881D3EB82F0049D856 /* UIScrollView+nkScrollViewTouch.m in Sources */,
+				5F23078A1D3EB82F0049D856 /* nkMapViewController.m in Sources */,
+				5F2307851D3EB82F0049D856 /* nkFirstView.m in Sources */,
+				5F2307911D3EB82F0049D856 /* nkHomeController.m in Sources */,
+				5F23078C1D3EB82F0049D856 /* nkMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F2307001D3EB49C0049D856 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F2307011D3EB49C0049D856 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F2307051D3EB49C0049D856 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,8 +678,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nkshooping/classes/farmework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/nkShooping/classes/public/nkPrefixHeader.pch";
 				INFOPLIST_FILE = nkshooping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.begin.9k.nkshooping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -273,8 +697,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nkshooping/classes/farmework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/nkShooping/classes/public/nkPrefixHeader.pch";
 				INFOPLIST_FILE = nkshooping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.begin.9k.nkshooping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -299,6 +731,7 @@
 				5F23070D1D3EB49C0049D856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
