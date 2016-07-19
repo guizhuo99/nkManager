@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  nkshoop
+//  nkshooping
 //
 //  Created by 仇凯 on 16/7/19.
 //  Copyright © 2016年 仇凯. All rights reserved.
